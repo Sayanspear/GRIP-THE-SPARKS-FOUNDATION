@@ -155,7 +155,7 @@ print('R-Squared:', r2_score(y_test, yhat))
 def score_predict():
     X=float(input("Enter The Study Hours"))
     Y=reg.intercept_+(reg.coef_*X)
-    print("If a student scores",X, "hours a day, he can achieve", float(Y), "%")
+    print("If a student studies",X, "hours a day, he can achieve", float(Y), "%")
 
 
 # In[125]:
